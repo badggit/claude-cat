@@ -1,0 +1,31 @@
+# Local docs stay out of the repo, except the build guide and project wiki.
+docs/*
+!docs/BUILD-macos.md
+!docs/wiki/
+!docs/wiki/**
+
+# Swift
+.build/
+.swiftpm/
+DerivedData/
+
+# Environment
+.env
+.env.local
+.env.test
+.envrc
+
+# Local
+*.local
+*.local.*
+
+# Editors and tooling
+.idea
+.codex
+
+# Python
+__pycache__/
+
+# Misc
+.DS_Store
+*.pem
