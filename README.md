@@ -3,7 +3,7 @@
 A tiny macOS menu-bar cat that gets fatter as Claude Code burns tokens during
 the day — and slims back down every morning. It can also step out of the menu
 bar and live as a larger creature right on your desktop, and you can swap the
-cat for a bunny, bird, flower, or pig.
+**cat** for a **bunny**, **bird**, **flower**, or **pig**.
 
 - **Zero dependencies.** Pure Swift + system frameworks. No Electron, no npm,
   no telemetry, no network calls at all.
@@ -12,6 +12,10 @@ cat for a bunny, bird, flower, or pig.
   creates is the optional launch-at-login plist.
 - **Local only.** Token usage is parsed from `~/.claude/projects/**/*.jsonl`
   on your machine.
+
+<img width="145" height="130" alt="claude-cat 1" src="https://github.com/user-attachments/assets/d852a417-7378-41a9-9030-e1cd5c9c3b09" />
+<img width="151" height="145" alt="claude-cat 2" src="https://github.com/user-attachments/assets/93995474-dcd3-4d47-8fd3-a0aed7339f77" />
+<img width="166" height="108" alt="claude-cat 3" src="https://github.com/user-attachments/assets/d7971b7d-b52a-4aaf-886f-5f9b45096b77" />
 
 ## How it works
 
